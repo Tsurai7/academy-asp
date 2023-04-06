@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AspCourse.Console
 {
-    class ConcreteIterator : Iterator
+    public class ConcreteIterator : Iterator
     {
 
         private readonly object[] _objects;

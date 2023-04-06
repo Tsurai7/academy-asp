@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AspCourse.Console
 {
-    abstract class Iterator
+    public abstract class Iterator
     {
         public abstract object MoveNext();
         public abstract bool IsDone();
